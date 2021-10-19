@@ -9,7 +9,7 @@ RUN sed -i 's/UseSqlServer/UseNpgsql/' src/SimplCommerce.WebHost/Extensions/Serv
 
 RUN rm src/SimplCommerce.WebHost/Migrations/* && cp -f src/SimplCommerce.WebHost/appsettings.docker.json src/SimplCommerce.WebHost/appsettings.json
 
-# ef core migrations run in debug, so we have to build in Debug for copying module correctly 
+# ef core migrations run in debug, so we have to build in Debug for copying module correctly..
 RUN dotnet restore && dotnet build \
     && cd src/SimplCommerce.WebHost \
 	&& dotnet ef migrations add initialSchema \
