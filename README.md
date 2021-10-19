@@ -14,7 +14,7 @@
 - Store front: http://demo.simplcommerce.com
 - Administration: http://demo.simplcommerce.com/admin Email: admin@simplcommerce.com Password: 1qazZAQ!
 
-### Docker
+## Docker
 
 For testing purpose only `docker run -p 5000:80 simplcommerce/ci-build`
 
