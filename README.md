@@ -27,7 +27,7 @@ Continuous deployment: https://ci.simplcommerce.com
 - SQL Server
 - [Visual Studio 2019 version >= 16.2 with .NET Core SDK 2.2.401](https://www.microsoft.com/net/download/all)
 
-#### Steps to run
+### Steps to run
 
 - Update the connection string in appsettings.json in SimplCommerce.WebHost
 - Build whole solution.
